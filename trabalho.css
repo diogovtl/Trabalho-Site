@@ -1,0 +1,197 @@
+/* Comando para colocar a imagem de fundo do meu website */
+body{
+    background-image: url(imagemdefundo.jpg);
+}
+
+/* Estilizando meu título do site */
+h1 {color: white; 
+    text-align: center; 
+    font-size: 70px;
+    font-family: "DM Serif Text", system-ui;
+}
+
+/*Estilizando cor de fundo, largura, distância entre os itens da lista, alinhamento, borda e sua sombra, texto e entre outros*/
+ul {
+    padding: 50px ;
+    background-color: rgb(7, 21, 27);
+    width: 600px ;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    border: 4px solid #ffffff;
+    box-shadow: 4px 4px 0px #ffffff;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right:auto;
+      
+}
+/*Definindo cor e comando para deixar o menu na horizonta */
+li a{
+    color: white;
+    float:left;
+    text-decoration: none;
+    
+    
+    
+}
+
+/* Estilizando o 'bloco' em que meu texto está*/
+.bloco {
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(7, 21, 27);
+    border: 4px solid #ffffff;
+    box-shadow: 4px 4px 0px #ffffff;
+    margin-left: auto;
+    margin-right:auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    
+
+}
+/*Definindo minha largura, altura, tipo do display e a posição da imagem que coloquei*/
+img{
+    width: 200px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    border: 3px solid #ffffff;
+    box-shadow: 3px 3px 0px #ffffff;
+   
+    
+    
+    
+}
+
+
+    
+
+
+#foto {
+    text-align: center;
+}
+
+.fundo {
+    width: 800px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(7, 21, 27);
+    border: 4px solid #ffffff;
+    box-shadow: 4px 4px 0px #ffffff;
+    font-size: 20px; 
+    color: white;
+    text-align: center;
+    
+
+}
+
+/*Aqui estou configurando onde meu link que vai para o portfólio irá ficar*/
+.bloco2{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(7, 21, 27);
+    border: 4px solid #ffffff;
+    box-shadow: 4px 4px 0px #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    justify-content: center;
+    
+    
+    
+}
+
+a{
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+/*Estilizando a altura, posição do meu texto dentro do input (para que ele fique com uma sobra tanto para direita quanto para a esquerda). E usando da margin left, right e display block para centralizar meu input */
+
+input {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 0;
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 0px #000000;
+    
+
+}
+/*Estilizando todos meus elementos da classe chamada 'titulo'*/
+.titulo {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px #000000;
+   
+    
+}
+
+
+/*Aqui estou estilizando a caixa de mensagem*/
+textarea {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 420px;
+    height: 100px;
+    border-radius: 0;
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/*Definindo cor de fundo, largura, altura, sombra, fonte da grafia, posição e uma leve suavização no hover*/
+button{
+    display: block;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 0;
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top:105%;
+    left: 48%;
+    right: 50%;
+    transition: 220ms;
+    
+}
+/*Estilizando meu botão para quando eu passar o mouse por cima, ele ficar de tal cor e para que ele cresca um pouco mais*/
+button:hover{
+    background-color: #000000;
+    color: white;
+    transform: scale(1.10);
+
+}
